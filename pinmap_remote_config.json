@@ -3,7 +3,7 @@
   "configVersion": 1,
   "refreshMinutes": 15,
   "maintenance": {
-    "enabled": false,
+    "enabled": true,
     "title": "PINMAP is under maintenance",
     "message": "We are updating the compatibility index. Please try again shortly.",
     "retryEnabled": true
