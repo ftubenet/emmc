@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "configVersion": 1,
+  "refreshMinutes": 15,
+  "maintenance": {
+    "enabled": false,
+    "title": "PINMAP is under maintenance",
+    "message": "We are updating the compatibility index. Please try again shortly.",
+    "retryEnabled": true
+  },
+  "update": {
+    "enabled": false,
+    "versionCode": 3,
+    "versionName": "1.2.0",
+    "force": false,
+    "title": "PINMAP update available",
+    "message": "A newer build is available with index and stability improvements.",
+    "url": "https://github.com/YOUR_ACCOUNT/YOUR_REPOSITORY/releases/latest"
+  },
+  "ads": {
+    "openAd": {
+      "enabled": false,
+      "mediaType": "image",
+      "mediaUrl": "https://raw.githubusercontent.com/YOUR_ACCOUNT/YOUR_REPOSITORY/main/ads/open-ad.jpg",
+      "clickUrl": "https://example.com",
+      "label": "SPONSORED",
+      "fit": "contain",
+      "muted": true,
+      "closeDelaySeconds": 0
+    },
+    "banner": {
+      "enabled": false,
+      "mediaType": "image",
+      "mediaUrl": "https://raw.githubusercontent.com/YOUR_ACCOUNT/YOUR_REPOSITORY/main/ads/banner.gif",
+      "clickUrl": "https://example.com",
+      "label": "SPONSORED",
+      "fit": "cover",
+      "height": 72
+    },
+    "interstitial": {
+      "enabled": false,
+      "mediaType": "gif",
+      "mediaUrl": "https://raw.githubusercontent.com/YOUR_ACCOUNT/YOUR_REPOSITORY/main/ads/interstitial.gif",
+      "clickUrl": "https://example.com",
+      "label": "SPONSORED",
+      "fit": "contain",
+      "showEvery": 3,
+      "closeDelaySeconds": 0
+    }
+  }
+}
